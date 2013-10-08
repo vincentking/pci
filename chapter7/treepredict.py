@@ -259,3 +259,7 @@ def buildtree(rows,scoref=entropy):
                         tb=trueBranch,fb=falseBranch)
   else:
     return decisionnode(results=uniquecounts(rows))
+
+
+tree = buildtree(my_data)
+drawtree(tree)

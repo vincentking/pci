@@ -35,3 +35,9 @@ import clusters
 
 # coords = clusters.scaledown(data)
 # clusters.draw2d(coords,blognames,jpeg='blogs2d.jpg')
+
+
+# avgs=[0.0]*10
+# print avgs
+import random
+print random.random()
